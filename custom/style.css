@@ -1,0 +1,67 @@
+body {
+	background: #dddddd; }
+
+	.clearfix:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+	.clearfix { display: inline-block; }
+	/* start commented backslash hack \*/
+	* html .clearfix { height: 1%; }
+	.clearfix { display: block; }
+	/* close commented backslash hack */
+
+/*------------------------
+
+Cards
+---------*/
+.cards {
+	border:1px solid red;
+	max-width: 900px; margin:10px auto;
+	max-height: 260px;
+}
+.card_people {
+	/*border:1px solid red;*/
+	width:50%; margin:0 0 0 0;
+	float: left; 
+	max-height: 260px;
+}
+.card_collection {
+	/*border:1px solid red;*/
+	width:50%; margin:0 0 0 0;
+	background-image:url("https://source.unsplash.com/category/collection/450x260");
+	float: left; 
+}
+.card_nature {
+	border:0px solid red;
+	width:50%; margin:0 0 0 0;
+	background-color: #555555;
+	float: left; 
+}
+.card__copy_collection{
+	padding: 5px 20px;
+	max-height: 260px;
+}
+.card__copy_nature{
+	padding: 5px 20px;
+
+}
+.card__copy_collection h3 {
+	margin-bottom: 0;
+	color: #ffffff;
+}
+.card__copy_collection_2{
+	text-align: justify;
+	background-color: #ffffff; opacity: 0.4;
+	padding: 4px;
+}
+.card__copy_nature h3 {
+	margin-bottom: 0;
+}
+.card__copy_nature p {
+	text-align: justify;
+}
